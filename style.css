@@ -1,3 +1,67 @@
+*{
+      margin: 0;
+      padding: 0;
+}
 .header{
       
+}
+.hero-section{
+      background-image: linear-gradient(100deg, #33d8d8e3, #2095c0e8), url(./assets/hero-bg.png);
+      background-size: cover;
+      height: 70vh;
+      width:  100%;
+      
+}
+
+/* Nav bar  */
+.navbar-container{
+      display:  flex;
+      margin: auto;
+      width: 100%;
+}
+.main-nav{
+      position: fixed;
+      width: 100%;
+}
+.text-white{
+ color: white;
+}
+.text-black{
+ color: black;
+}
+.call-icon{
+      height: 32px;
+      width: 32px;
+      padding: 8px;
+      border-radius: 20px;
+      background-color: #33d8d8e3;
+      display: flex ;
+      justify-content: center;
+      align-items: center;
+
+      
+}
+.nav-phone-btn{
+      background-color: white  ;
+      display: flex;
+      justify-items: center;
+      align-items: center;
+      padding: 5px 15px;
+      border-radius: 25px;
+      gap: 10px;
+
+}
+.phone-nav{
+      line-height: 0px;
+}
+.navbar-nav{
+      flex-grow: 1;
+}
+.navbar-color{
+      background-color: blue;
+
+}
+.navlinks{
+      justify-content: center;
+      font-size: 18px;
 }
